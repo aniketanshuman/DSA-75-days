@@ -14,7 +14,6 @@ class MyHashMap {
         public int get(int key) {
             return map[key];
         }
-        //To remove an key,simply put -1 at that index
         public void remove(int key) {
             map[key] = -1;
         }
