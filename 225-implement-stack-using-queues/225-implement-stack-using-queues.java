@@ -23,7 +23,7 @@ class MyStack {
         return rst;
     }
 
-    /** Get the top element. */
+   
     public int top() {
         while (q1.size() > 1) {
             q2.add(q1.poll());
