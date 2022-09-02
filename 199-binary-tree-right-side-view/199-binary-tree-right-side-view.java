@@ -14,7 +14,6 @@
  * }
  */
 class Solution {
-    int maxLevel=0;
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         rsv(root, 1, res);
